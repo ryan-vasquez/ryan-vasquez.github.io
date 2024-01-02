@@ -6,11 +6,11 @@
   <body>
     <script src="index.js"></script>
 
-    <audio controls onplay="showQuestion()">
+    <audio controls onplay="showQuestion()" id="audio">
       <source src="./style/music/coldplay-yellow.mp3" type="audio/mp3" />
     </audio>
 
-    <div class="container" id="container">
+    <div class="question-container" id="question-container">
       <div>
         <h1 class="header_text">Will you be my girlfriend? :)</h1>
       </div>
@@ -20,11 +20,27 @@
           alt="Cute animated illustration"
         />
       </div>
+
       <br />
+
       <div class="buttons">
-        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button class="btn" id="yesButton" onclick="answerQuestion()">Yes</button>
         <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
       </div>
+
     </div>
+
+    <div class="answer-container" id="answer-container">
+        <div>
+          <h1 class="header_text">Yippie!!!</h1>
+        </div>
+        <div class="gif_container">
+          <img
+            src="./style/images/penguin_gif.gif"
+            alt="Cute animated illustration"
+          />
+        </div>
+        <p class="text">See you next week my love! :)</p>
+      </div>
   </body>
 </html>
