@@ -1,13 +1,5 @@
-currentTimeStamp = 0;
 function showQuestion() {
     document.getElementById('question-container').style.visibility="visible";
-}
-
-function nextPage() {
-    let audio = document.getElementById('audio');
-    var cur_time = audio.currentTime;
-    currentTime = cur_time;
-    window.location.href = "yes.html";
 }
 
 function moveButton() {
