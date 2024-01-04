@@ -61,6 +61,16 @@ body {
     margin-left: 50px;
 }
 
+.gif_container .us_image {
+    height: 15%;
+    width: 50%;
+    align-self: center;
+}
+
+.audio {
+    flex: 50%;
+}
+
 .question-container {
     visibility: hidden;
 }
@@ -75,6 +85,16 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 55px;
+}
+
+.countdown {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
     margin-bottom: 0px;
 }
